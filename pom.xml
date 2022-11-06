@@ -14,8 +14,10 @@
 	<name>springboot-backend</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-			<maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
+	
+		<maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
 		<java.version>11</java.version>
+	
 	</properties>
 	<dependencies>
 		<dependency>
@@ -79,11 +81,17 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			
+	
+			
+			
 			<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-resources-plugin</artifactId>
-    <version>3.1.0</version>
-</plugin>
+    	<groupId>org.apache.maven.plugins</groupId>
+    	<artifactId>maven-resources-plugin</artifactId>
+    	<version>3.1.0</version>
+			</plugin>
+		
+		
 		</plugins>
 	</build>
 
